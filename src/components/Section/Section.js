@@ -1,4 +1,3 @@
-import React from 'react';
 import s from './Section.module.css';
 import PropTypes from 'prop-types';
 
@@ -9,9 +8,9 @@ const Section = ({ title, children }) => (
   </section>
 );
 
-export default Section;
-
 Section.propTypes = {
   children: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
 };
+
+export default Section;
