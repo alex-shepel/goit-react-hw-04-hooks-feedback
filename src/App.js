@@ -41,15 +41,15 @@ const App = () => {
     const label = e.target.innerText.toLowerCase();
 
     switch (label) {
-      case 'good': {
+      case Options.GOOD: {
         setGood(c => c + 1);
         return;
       }
-      case 'neutral': {
+      case Options.NEUTRAL: {
         setNeutral(c => c + 1);
         return;
       }
-      case 'bad': {
+      case Options.BAD: {
         setBad(c => c + 1);
         return;
       }
